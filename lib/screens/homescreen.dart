@@ -31,23 +31,10 @@ class _HomeScreenState extends State<HomeScreen> {
         style: GoogleFonts.aBeeZee(
           color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18
         ),),
+
+
       ),
-      body: const Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                CupertinoIcons.house_fill,
-                color: Colors.deepPurpleAccent,
-                size: 150,
-              ),
-            ],
-          ),
-          SizedBox(height: 80,),
-        ],
-      ),
+      body: Text(''),
     );
   }
 }

@@ -1,5 +1,5 @@
-import 'package:edu/screens/LoginScreen.dart';
-import 'package:edu/screens/homescreen.dart';
+
+import 'package:edu/screens/onboardscreens.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:
-      LoginScreen(),
+      home: Onboardscreens(),
     );
   }
 }

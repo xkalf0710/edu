@@ -156,7 +156,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               Icons.email,
                               color: Colors.deepPurpleAccent,
                             ),
-                            hintText: "Имейл",
+                            hintText: "Имэйл",
                             filled: true,
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.all(
