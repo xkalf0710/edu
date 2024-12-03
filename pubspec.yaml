@@ -40,6 +40,8 @@ dependencies:
 
   concentric_transition: ^1.0.3
 
+  translator: ^1.0.3+1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
